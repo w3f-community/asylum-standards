@@ -36,18 +36,6 @@ An item MUST have metadata to describe it and help game developers of the Asylum
   "description": {
     "type": "string",
     "description": "Description of the template as a whole. Markdown is supported."
-  },
-  "externalUri": {
-    "type": "string",
-    "description": "HTTP or IPFS URL for finding out more about this project. If IPFS, MUST be in the format of ipfs://ipfs/HASH"
-  },
-  "mediaUri": {
-    "type": "string",
-    "description": "HTTP or IPFS URL to project's main image, in the vein of og:image. If IPFS, MUST be in the format of ipfs://ipfs/HASH"
-  },
-  "name": {
-    "type": "string",
-    "description": "Name of the item, e.g. 'Ultra Super Sword'."
   }
 }
 ```
