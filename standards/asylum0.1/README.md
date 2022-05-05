@@ -27,7 +27,7 @@ All NFT items in Asylum ecosystem extends `pallet_uniques` and `RMRK` standards 
 
 ## Asylum entities flow diagram
 
-![](/docs/img/asylum-entities-flow-diagram.png)
+![](docs/img/asylum-entities-flow-diagram.png)
 
 * **Template:** The extension of the classic NFT Collection. The `Template` has a set of supported `Interpretations`, and all items minted from this `Template` support these `Interpretations` as well.
 * **Interpretation:** The description of the media resource, which is used to interpret the `Template` in different contexts. To describe such context, `Interpretation` must be associated with the unique set of `Tags`. This set of `Tags` defines the format of `Interpretation`'s metadata.
