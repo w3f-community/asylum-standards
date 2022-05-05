@@ -39,18 +39,6 @@ A template MUST have metadata to describe it and help game developers of the Asy
   "description": {
     "type": "string",
     "description": "Description of the template as a whole. Markdown is supported."
-  },
-  "externalUri": {
-    "type": "string",
-    "description": "HTTP or IPFS URL for finding out more about this project. If IPFS, MUST be in the format of ipfs://ipfs/HASH"
-  },
-  "mediaUri": {
-    "type": "string",
-    "description": "HTTP or IPFS URL to project's main image, in the vein of og:image. If IPFS, MUST be in the format of ipfs://ipfs/HASH"
-  },
-  "name": {
-    "type": "string",
-    "description": "Name of the template, e.g. 'Ultra Super Sword Game A'."
   }
 }
 ```
@@ -86,9 +74,7 @@ Metadata:
 
 ```json
 {
-  "description": "Template supports two 2D views: inventory pixel and anime",
-  "externalUri": "someUri",
-  "mediaUri": "ipfs://ipfs/QmYcWFQCY1bAZ7ffRggt367McMN5gyZjXtribj5hzzeCWQ"
+  "description": "Template supports two 2D views: inventory pixel and anime"
 }
 ```
 
