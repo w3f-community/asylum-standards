@@ -25,23 +25,18 @@ An interpretation tag MUST have metadata to describe it and help game developers
 
 ```json
 {
+  "id": "string",
   "description": {
     "type": "string",
     "description": "Description of the interpretation tag as a whole. Markdown is supported."
   },
-	"metadata-extensions":  {
+	"metadataExtensions":  {
     "fields": [ 
       {
-          "name": {
-            "type": "string",
-            "description": "The name of the interpretation field"
-          },
-          "type": "array" | "object" | "int" | "float" | "boolean" | "datetime" | "string",
-          "description": {
-              "type": "string",
-              "description": "Description of the field. Markdown is supported."
-            }
-          }
+          "name": "string",
+          "description": "string"
+          "default": "array" | "object" | "int" | "float" | "boolean" | "datetime" | "string",
+          "type": "array" | "object" | "boolean" | "datetime" | "string" | "number"
       }
     ]
  }
@@ -62,6 +57,7 @@ Metadata:
 
 ```json
 {
+  "id": "sound",
   "description": "Sound",
   "metadata-extensions":  {
     "fields": [ 
