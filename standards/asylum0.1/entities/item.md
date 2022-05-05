@@ -70,10 +70,7 @@ Metadata:
 
 ```json
 {
-  "externalUri": "someUri",
-  "mediaUri": "ipfs://ipfs/QmSY3VzdNdAphEs51GW9QMAUotaX3Rf6WeGQkvPPVhEQ3B",
   "description": "Item supports two 2D views: inventory pixel and anime",
-  "name": "DL15",
 }
 ```
 
