@@ -30,7 +30,7 @@ An interpretation tag MUST have metadata to describe it and help game developers
     "type": "string",
     "description": "Description of the interpretation tag as a whole. Markdown is supported."
   },
-	"metadataExtensions":  {
+  "metadataExtensions":  {
     "fields": [ 
       {
           "name": "string",
@@ -39,7 +39,7 @@ An interpretation tag MUST have metadata to describe it and help game developers
           "type": "array" | "object" | "boolean" | "datetime" | "string" | "number"
       }
     ]
- }
+  }
 }
 ```
 
